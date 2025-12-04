@@ -1,0 +1,77 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #f5eaff, #fff);
+    padding-bottom: 40px;
+}
+
+/* ===== HEADER ===== */
+header {
+    background: #d9b7ff;
+    padding: 25px;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #4a2d62;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* ===== GRID ===== */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+    padding: 30px;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: white;
+    padding: 18px;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.12);
+    text-align: center;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.18);
+}
+
+/* ===== IMAGEM ===== */
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 15px;
+    transition: transform 0.4s ease;
+}
+
+/* ANIMAÇÃO DO HOVER NA IMAGEM */
+.card:hover img {
+    transform: scale(1.08);
+}
+
+/* ===== TITULO ===== */
+.titulo {
+    margin: 12px 0 8px;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #4a2d62;
+}
+
+/* ===== PREÇO ===== */
+.preco {
+    color: #7a3eb0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
