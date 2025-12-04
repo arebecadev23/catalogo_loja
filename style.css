@@ -23,7 +23,6 @@ header {
     letter-spacing: 1px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
 /* ===== GRID ===== */
 .grid {
     display: grid;
@@ -74,4 +73,30 @@ header {
     color: #7a3eb0;
     font-size: 1.1rem;
     font-weight: 500;
+}
+/* PESQUISAR */
+.pesquisar-caixa {
+    display: flex; /*deixa o input e botão na mesma linha.*/
+    justify-content: center; /* centraliza horizontalmente */
+    margin: 30px 0;
+}
+.pesquisar-caixa input {
+    padding: 15px 15px;
+    width: 300px;
+    border: 2px solid #d9b7ff;
+    border-radius: 10px 0 0 10px;
+    outline: none;
+    font-size: 1rem;
+}
+
+.pesquisar-caixa button {
+    padding: 15px 30px; /* mais alto e mais largo */
+    font-size: 1.2rem;   /* aumenta o tamanho do texto */
+    border: none;
+    background: #7a3eb0;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px; /* deixa totalmente arredondado */
+    transition: background 0.3s;
+    margin-left: 15px;
 }
