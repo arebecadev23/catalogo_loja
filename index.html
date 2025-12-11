@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<link rel="stylesheet" href="style.css"> <!--Isso aqui importa o css da outra page.-->
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Catálogo</title>
-    
+
+    <!-- Importa o CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>Catálogo</header>
+
     <div class="pesquisar-caixa">
-        <input type = "text" placeholder="Pesquisar produtos"> <!--INPUT type vai servir para a pessoa digitar o que ela quer-->
+        <input type="text" placeholder="Pesquisar produtos">
         <button>Pesquisar</button>
     </div>
-    <div class="grid"> <!-- Contêiner que organiza os cards em grade usando CSS Grid -->
+
+    <div class="grid">
 
         <div class="card">
             <img src="catalogo/capanotebook.jpg" alt="Capa de notebook" />
@@ -40,44 +43,51 @@
             <div class="titulo">Kit Bolsa + suporte de garrafa</div>
             <div class="preco">R$ Consulte-nos</div>
         </div>
+
         <div class="card">
             <img src="catalogo/bolsa_de_mão.jpg" alt="Bolsa de mão" />
             <div class="titulo">Bolsa de mão</div>
             <div class="preco">R$ Consulte-nos</div>
         </div>
+
         <div class="card">
             <img src="catalogo/necessarie.jpg" alt="Necesserie" />
             <div class="titulo">Necesserie</div>
-            <div class="preco">R$ Consulte-nos </div>
+            <div class="preco">R$ Consulte-nos</div>
         </div>
+
         <div class="card">
             <img src="catalogo/biquini.jpg" alt="Biquini" />
             <div class="titulo">Biquiní praiano</div>
             <div class="preco">R$ Consulte-nos</div>
         </div>
+
         <div class="card">
             <img src="catalogo/bolsa_garrafa.jpg" alt="Kit Bolsa e suporte de garrafa" />
             <div class="titulo">Kit Bolsa + suporte de garrafa</div>
             <div class="preco">R$ 99,90</div>
         </div>
+
         <div class="card">
             <img src="catalogo/top-frente-unica.jpg" alt="Top frente unica" />
-            <div class="titulo">Top Frente unico</div>
-            <div class="preco">R$ Consulte-nos </div>
+            <div class="titulo">Top Frente único</div>
+            <div class="preco">R$ Consulte-nos</div>
         </div>
+
         <div class="card">
             <img src="catalogo/poncho-verao.jpg" alt="poncho-verao" />
             <div class="titulo">Poncho de verão</div>
-            <div class="preco">R$ Consulte-nos </div>
+            <div class="preco">R$ Consulte-nos</div>
         </div>
 
-    </div>
-            <!-- Botão WhatsApp -->
-<a href="https://wa.me/5586999095037" <!--numero de wpp.-->
-   class="whatsapp-btn" 
-   target="_blank">
-    <img src="catalogo/icon-wpp.png" alt="WhatsApp">
-</a>
+    </div> <!-- Fim da grid -->
+
+    <!-- Botão WhatsApp (CORRIGIDO) -->
+    <a href="https://wa.me/5586999095037"
+       class="whatsapp-btn"
+       target="_blank">
+        <img src="catalogo/icon-wpp.png" alt="WhatsApp">
+    </a>
 
 </body>
 </html>
