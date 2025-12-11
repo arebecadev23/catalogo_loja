@@ -89,24 +89,7 @@
         <img src="catalogo/icon-wpp.png" alt="WhatsApp">
     </a>
 
-    <script>
-    const barraPesquisa = document.getElementById("barraPesquisa");
-    const cards = document.querySelectorAll(".card");
 
-    barraPesquisa.addEventListener("input", function () {
-        let texto = barraPesquisa.value.toLowerCase();
-
-        cards.forEach(card => {
-            let titulo = card.querySelector(".titulo").textContent.toLowerCase();
-
-            if (titulo.includes(texto)) {
-                card.style.display = "block"; // restaura comportamento normal do grid
-            } else {
-                card.style.display = "none";
-            }
-        });
-    });
-</script>
 
 
 </body>
